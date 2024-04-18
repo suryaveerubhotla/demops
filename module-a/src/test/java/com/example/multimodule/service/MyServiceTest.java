@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest("service.message=Hello")
-class MyServiceTest {
+public class MyServiceTest {
 
 	@Autowired
 	private MyService myService;
