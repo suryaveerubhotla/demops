@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 @EnableConfigurationProperties(ServiceProperties.class)
-public class MyService {
+class MyService {
 
 	private final ServiceProperties serviceProperties;
 
