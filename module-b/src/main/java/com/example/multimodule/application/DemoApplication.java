@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication(scanBasePackages = "com.example.multimodule")
 @RestController
-public class DemoApplication {
+class DemoApplication {
 
 	private final MyService myService;
 
